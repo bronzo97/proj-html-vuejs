@@ -11,8 +11,8 @@
             <div class="row">
                 <div class="col">
                     <div class="video-img">
-                        <div class="play"><i class="fa-solid fa-play"></i></div>
-                        <div class="play"><i class="fa-solid fa-play"></i></div>
+                        <div class="play-1"><i class="fa-solid fa-play"></i></div>
+                        <div class="play-2"><i class="fa-solid fa-play"></i></div>
                     </div>
                 </div>
             </div>        
@@ -32,7 +32,7 @@
 <style lang="scss" scoped>
 
 .video-section {
-
+    padding: 4rem;
 
     .video-img {
         width: 1000px;
@@ -40,7 +40,28 @@
         background-image: url('../../public/images/video-1.jpg');
         background-position: center;
         background-size: cover;
+        margin: 0 auto;
+        position: relative;
 
+        .play-1 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: #e7eee9;
+            opacity: 0.8;
+            z-index: 1;
+            font-size: 5rem;
+            transform: translate(-50%, -50%);
+        }
+        .play-2 {
+            position: absolute;
+            top: 48%;
+            left: 50%;
+            color: #048383;
+            opacity: 0.8;
+            font-size: 5rem;
+            transform: translate(-50%, -50%);
+        }
     }
 }
     
