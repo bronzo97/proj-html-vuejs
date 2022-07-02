@@ -6,7 +6,7 @@
                 <div class="row row-cols-4 row-cols-lg-5 justify-content-center">
                     <div class="col">                    
                         <ul class="list-unstyled">
-                            <li><img src="" alt=""></li>
+                            <li><img src="../../public/images/logo_48.png" alt=""></li>
                             <li><p>A funtional HTML Template for corporate & business.</p></li>
                             <li><i class="fa-solid fa-phone"></i> +1 (305) 1234-5678</li>
                             <li><i class="fa-solid fa-envelope"></i> hello@example.com</li>

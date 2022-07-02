@@ -31,7 +31,7 @@
                         </ul>
                     </div>
                     <div class="col">
-                        <ul class="list-unstyled d-flex justify-content-between">
+                        <ul class="list-unstyled d-flex justify-content-between align-items-center">
                             <li>Home</li>
                             <li>About</li>
                             <li>Services</li>
@@ -85,6 +85,7 @@
     .jumbotron {
         color: #fff;
         background-image: url("../../public/images/bg-2.jpg");
+        background-blend-mode: darken;
         background-size: cover;
         height: calc(100vh - 50px);
         
