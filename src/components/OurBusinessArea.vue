@@ -85,6 +85,7 @@
     .our-business-area-section {
         background-color: #111116;
         color: #fff;
+        padding: 150px;
         .my-card-header {
             padding: 1rem 1rem 0 1rem;
             display: flex;
@@ -93,7 +94,8 @@
         }
 
         .card {
-            margin: .5rem;
+            padding: 2rem;
+            margin: .5rem 0;
             background-color: #191920;
 
         }
