@@ -3,7 +3,7 @@
     <TheHeader></TheHeader>
     <TheMain></TheMain>
     <TheFooter></TheFooter>
-    <h2>Ciao mi chiamo {{state.userName}}</h2>
+    <h2>Ciao mi chiamo {{getState.userName}}</h2>
 
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
@@ -26,12 +26,20 @@ export default {
     TheHeader,
     TheMain,
     TheFooter
+  
+  },
+  data() {
+    return {
 
+    }
   },
   methods: {
-    state() {
-      return state;
-    },
+    
+  }, 
+  computed: {
+    getState() {
+      return state.data;
+    }
   }
 
 }
