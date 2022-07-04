@@ -7,8 +7,6 @@
         <LatestNews></LatestNews>
         <TheNewsLetter></TheNewsLetter>
         <TheForm></TheForm>
-        <h1>{{state.user}}</h1>
-
     </div>
 </template>
 
@@ -23,9 +21,6 @@
     import TheNewsLetter from './TheNewsLetter.vue'
     import TheForm from './TheForm.vue'
 
-    import { state } from "../store.js";
-
-
 
     export default {
         name: 'TheMain',
@@ -37,6 +32,7 @@
             LatestNews,
             TheNewsLetter,
             TheForm,
+            
     }
 
 }

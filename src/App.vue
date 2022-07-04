@@ -3,6 +3,7 @@
     <TheHeader></TheHeader>
     <TheMain></TheMain>
     <TheFooter></TheFooter>
+    <h2>Ciao mi chiamo {{state.userName}}</h2>
 
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
@@ -10,6 +11,9 @@
 </template>
 
 <script>
+
+import {state} from './store.js'
+
 // import HelloWorld from './components/HelloWorld.vue'
 import TheHeader from './components/TheHeader.vue'
 import TheMain from './components/TheMain.vue'
@@ -22,7 +26,14 @@ export default {
     TheHeader,
     TheMain,
     TheFooter
+
+  },
+  methods: {
+    state() {
+      return state;
+    },
   }
+
 }
 </script>
 
