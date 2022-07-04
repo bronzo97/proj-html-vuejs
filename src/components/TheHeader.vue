@@ -32,15 +32,15 @@
                     </div>
                     <div class="col">
                         <ul class="list-unstyled d-flex justify-content-between align-items-center">
-                            <li>Home</li>
-                            <li>About</li>
+                            <li v-for="li in getState.headerListItem" :key="li">{{li}}</li>
+                            <!-- <li>About</li>
                             <li>Services</li>
                             <li>Team</li>
                             <li>Blog</li>
                             <li><i class="fa-regular fa-user"></i></li>
                             <li>
                                 <div class="btn btn-primary">Get in touch</div>
-                            </li>
+                            </li> -->
                         </ul>
                     </div>
                 </div>
@@ -59,13 +59,21 @@
 </template>
 
 <script>
+
+import {state} from '../store.js'
+
     export default {
         name: 'TheHeader',
         data() {
             return {
                 
                 }
-            }
+            },
+        computed: {
+            getState() {
+                return state.data;
+    }
+        },
         }
         
 
