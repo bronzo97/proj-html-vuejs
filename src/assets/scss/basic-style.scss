@@ -7,6 +7,17 @@ p {
     color: #fff;
     text-transform: uppercase;
 
+    &:hover {
+        transform: scale(1.1);
+        background-color: #056c6c;
+        border: none;
+        color: #fff;
+    }
+
+    &:focus {
+        border: none;
+    }
+
 }
 
 .my-btn-2 {
@@ -15,6 +26,17 @@ p {
     color: #fff;
     text-transform: uppercase;
 
+    &:hover {
+        transform: scale(1.1);
+        background-color: #058283;
+        border: none;
+
+    }
+
+    &:focus {
+        border: none;
+    }
+
 }
 
 .my-btn-3 {
@@ -22,6 +44,17 @@ p {
     border: 2px solid #058283;
     color: #058283;
     text-transform: uppercase;
+
+    &:hover {
+        transform: scale(1.1);
+        background-color: #058283;
+        color: #fff;
+    }
+
+    &:focus {
+        border: none;
+    }
+    
 
 }
 

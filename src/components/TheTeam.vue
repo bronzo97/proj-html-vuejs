@@ -8,7 +8,7 @@
                         <h2><span class="marker-effect-light">Team</span> of experts</h2>
                         <p>Ethics and integrity are bases on which our professionals build their careers. They are fundamentals that become daily attitudes.</p>
                     <div class="row">
-                        <div class="col col-6">
+                        <div class="col col-6 p-3">
                             <div class="row">
                                 <div class="col col-4">
                                     <img src="../../public/images/team-1.jpg" alt="">
@@ -25,7 +25,7 @@
                             
                             </div>
                         </div>
-                        <div class="col col-6">
+                        <div class="col col-6 p-3">
                             <div class="row">
                                 <div class="col col-4">
                                     <img src="../../public/images/team-3.jpg" alt="">
@@ -41,7 +41,7 @@
                                 </div>
                             
                             </div>
-                        </div><div class="col col-6">
+                        </div><div class="col col-6 p-3">
                             <div class="row">
                                 <div class="col col-4">
                                     <img src="../../public/images/team-2.jpg" alt="">
@@ -57,7 +57,7 @@
                                 </div>
                             
                             </div>
-                        </div><div class="col col-6">
+                        </div><div class="col col-6 p-3">
                             <div class="row">
                                 <div class="col col-4">
                                     <img src="../../public/images/team-4.jpg" alt="">
@@ -133,6 +133,7 @@ export default {
             background-color: #058283;
             color: #fff;
             padding: 40px;
+            border-radius: 5px;
         }
     }
 </style>
