@@ -1,9 +1,9 @@
 <template>
     <div class="latest-news-section">
         <div class="container">
-            <p>our editorial content</p>
+            <p class="introduction-text">our editorial content</p>
             <div class="row">
-                <h2>Latest News</h2>
+                <h2>Latest <span class="marker-effect-light">News</span></h2>
                 <div class="d-flex justify-content-between">
                     <p>Every week we publish content about what is best in the business world.</p>
                     <div class="btn btn-primary">SEE ALL</div>

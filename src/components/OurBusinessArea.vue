@@ -3,8 +3,8 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <p>Our business area</p>
-                    <h2>Excellence in Service</h2>
+                    <p class="introduction-text">Our business area</p>
+                    <h2>Excellence in <span class="marker-effect-dark">Service</span></h2>
                 </div>
             </div>
             <div class="row">

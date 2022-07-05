@@ -3,8 +3,8 @@
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col col-4">
-                    <p>The newsletter</p>
-                    <h2>Know First</h2>
+                    <p class="introduction-text">Newsletter</p>
+                    <h2><span class="marker-effect-dark">Know</span> First</h2>
                     <p>Follow closely and receive content about our company and the news of the current marker.</p>
                 </div>
                 <div class="col col-4">

@@ -1,11 +1,11 @@
 <template>
     <div class="the-team-section">
         <div class="container">
-            <p>we like what we do</p>
+            <p class="introduction-text">we like what we do</p>
             <div class="row">
                 
                     <div class="col col-8">
-                        <h2>Team of experts</h2>
+                        <h2><span class="marker-effect-light">Team</span> of experts</h2>
                         <p>Ethics and integrity are bases on which our professionals build their careers. They are fundamentals that become daily attitudes.</p>
                     <div class="row">
                         <div class="col col-6">
@@ -81,12 +81,14 @@
                 
                     
 
-                <div class="col col-3">
-                    <h3>Presindent Speach</h3>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptatem accusamus, dicta recusandae vero.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptatem accusamus, dicta recusandae vero.</p>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptatem accusamus, dicta recusandae vero.</p>
-                    <p>T.Johnson <span><i class="fa-solid fa-quote-right"></i></span></p>
+                <div class="col col-4">
+                    <div class="ceo-cit">
+                        <h5>Presindent Speach</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptatem accusamus, dicta recusandae vero.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptatem accusamus, dicta recusandae vero.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam voluptatem accusamus, dicta recusandae vero.</p>
+                        <p>T.Johnson <span><i class="fa-solid fa-quote-right"></i></span></p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -109,23 +111,28 @@ export default {
         flex-direction: column;
         justify-content: center;
 
-        img {
-            height: 120px;
-            width: 100px;
-            border-radius: 5px;
-        }
-
-        .socials {
-            display: flex;
-
-            i {
-                padding: .5rem;
-                background-color: #bcbdbd;
-                color: #60a9ad;
-                border-radius: 50%;
-                margin: 0.5rem;
-
+            img {
+                height: 120px;
+                width: 100px;
+                border-radius: 5px;
             }
+
+            .socials {
+                display: flex;
+
+                i {
+                    padding: .5rem;
+                    background-color: #bcbdbd;
+                    color: #60a9ad;
+                    border-radius: 50%;
+                    margin: 0.5rem;
+
+                }
+            }
+        .ceo-cit {
+            background-color: #058283;
+            color: #fff;
+            padding: 40px;
         }
     }
 </style>

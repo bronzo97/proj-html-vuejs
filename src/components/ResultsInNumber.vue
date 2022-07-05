@@ -3,8 +3,8 @@
         <div class="container">
             <div class="row text-center bottom-spacing">
                 <div class="col">
-                    <p>what are we doing</p>
-                    <h2>Results in Numbers</h2>
+                    <p class="introduction-text">what are we doing</p>
+                    <h2><span class="marker-effect-dark">Results</span> in Numbers</h2>
                 </div>
             </div>
             <div class="row row-cols-4 text-center">

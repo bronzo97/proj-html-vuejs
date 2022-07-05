@@ -10,8 +10,8 @@
                     </div>
                     <div class="col">
                         <ul class="d-flex justify-content-between list-unstyled">
-                            <li><i class="fa-solid fa-phone"></i> +1 (305) 1234-5678</li>
-                            <li><i class="fa-solid fa-envelope"></i> hello@example.com</li>
+                            <li><i class="fa-solid fa-phone"></i> {{getState.contacts.phoneNumber}}</li>
+                            <li><i class="fa-solid fa-envelope"></i> {{getState.contacts.email}}</li>
                             <li><i class="fa-brands fa-facebook-f"></i></li>
                             <li><i class="fa-brands fa-twitter"></i></li>
                             <li><i class="fa-brands fa-linkedin-in"></i></li>
@@ -36,11 +36,11 @@
                             <!-- <li>About</li>
                             <li>Services</li>
                             <li>Team</li>
-                            <li>Blog</li>
+                            <li>Blog</li> -->
                             <li><i class="fa-regular fa-user"></i></li>
                             <li>
-                                <div class="btn btn-primary">Get in touch</div>
-                            </li> -->
+                                <div class="btn my-btn-1">Get in touch</div>
+                            </li>
                         </ul>
                     </div>
                 </div>
@@ -48,8 +48,8 @@
                     <div class="col col-5">
                         <h1><strong>Financial Risk</strong></h1>
                         <p>The right outcomes depends on countinuos rigor in governance, models, and processes across the finance function</p>
-                        <div class="btn btn-primary">Get in touch</div>
-                        <div class="btn btn-primary">Read more</div>
+                        <div class="btn my-btn-1">Get in touch</div>
+                        <div class="btn my-btn-2">Read more</div>
 
                     </div>
                 </div>

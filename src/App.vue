@@ -3,8 +3,6 @@
     <TheHeader></TheHeader>
     <TheMain></TheMain>
     <TheFooter></TheFooter>
-    <h2>Ciao mi chiamo {{getState.userName}}</h2>
-
     <!-- <img alt="Vue logo" src="./assets/logo.png">
     <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   </div>
@@ -34,7 +32,7 @@ export default {
     }
   },
   methods: {
-    
+
   }, 
   computed: {
     getState() {

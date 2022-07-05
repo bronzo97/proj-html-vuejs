@@ -2,9 +2,9 @@
     <div class="video-section">
         <div class="container">
             <div class="row text-center justify-content-center align-items-center">
-                <div class="col col-5 text-center">
-                    <p>introduction video</p>
-                    <h2>Advisory Preformance</h2>
+                <div class="col col-8 text-center">
+                    <p class="introduction-text">introduction video</p>
+                    <h2>Advisory <span class="marker-effect-light">Preformance</span></h2>
                     <p>Financial executives need to review their strategies, operating models and capabilities so that their areas can generate sound informations for better decision making.</p>
                 </div>
             </div>
@@ -32,7 +32,10 @@
 <style lang="scss" scoped>
 
 .video-section {
-    padding: 4rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 
     .video-img {
         width: 1000px;

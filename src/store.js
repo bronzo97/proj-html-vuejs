@@ -15,8 +15,8 @@ export const state = Vue.observable({
             services: 'Services',
             team: 'team',
             blog: 'blog',
-            icon: '<i class="fa-regular fa-user"></i>',
-            button: '<div class="btn btn-primary">Get in touch</div>',
+            // icon: '<i class="fa-regular fa-user"></i>',
+            // button: '<div class="btn btn-primary">Get in touch</div>',
 
         },
         footerListItems: {
