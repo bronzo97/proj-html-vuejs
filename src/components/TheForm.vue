@@ -23,7 +23,7 @@
                             <textarea class="form-control" aria-label="With textarea" placeholder="Message"></textarea>
                         </div>
                         <div class="col">
-                            <div class="div btn btn-primary">SEND</div>
+                            <div class="btn my-btn-1">SEND</div>
                         </div>
                     </div>
                 </div>
@@ -35,6 +35,7 @@
                         <div><i class="fa-solid fa-phone"></i> +1 (305) 1234-5678</div>
                         <div><i class="fa-solid fa-envelope"></i> hello@example.com</div>
                         <div><i class="fa-solid fa-location-dot"></i> Main Avenue, 987</div>
+                        <div class="btn my-btn-3 mt-2">view map</div>
                     </div>
                 </div>
             </div>

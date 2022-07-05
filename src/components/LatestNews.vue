@@ -6,7 +6,7 @@
                 <h2>Latest <span class="marker-effect-light">News</span></h2>
                 <div class="d-flex justify-content-between">
                     <p>Every week we publish content about what is best in the business world.</p>
-                    <div class="btn btn-primary">SEE ALL</div>
+                    <div class="btn my-btn-1">SEE ALL</div>
                 </div>
             </div>
             <div class="row row-cols-3 justify-content-center my-5">
@@ -37,6 +37,7 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+        background-color: #EEF4ED;
 
         p {
             margin: 0;

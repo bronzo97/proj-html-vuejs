@@ -10,7 +10,7 @@
                 <div class="col col-4">
                     <input type="text" class="form-control m-2" placeholder="Name">
                     <input type="email" class="form-control m-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
-                    <div class="btn btn-primary m-2">SUBSCRIBE</div>
+                    <div class="btn my-btn-1 m-2">SUBSCRIBE</div>
                 </div>
             </div>
         </div>

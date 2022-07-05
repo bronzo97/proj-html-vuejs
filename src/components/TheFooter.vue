@@ -11,7 +11,7 @@
                             <li><i class="fa-solid fa-phone"></i> {{getState.contacts.phoneNumber}}</li>
                             <li><i class="fa-solid fa-envelope"></i> {{getState.contacts.email}}</li>
                             <li><i class="fa-solid fa-location-dot"></i> {{getState.contacts.location}}</li>
-                            <li class="text-center mt-4"><div class="btn btn-primary">Get in touch</div></li>
+                            <li class="mt-4"><div class="btn my-btn-2">Get in touch</div></li>
                         </ul>                    
                     </div>
                     <div class="col">
