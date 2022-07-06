@@ -6,6 +6,7 @@ p {
     background-color: #058283;
     color: #fff;
     text-transform: uppercase;
+    border: transparent;
 
     &:hover {
         transform: scale(1.1);
@@ -29,7 +30,7 @@ p {
     &:hover {
         transform: scale(1.1);
         background-color: #058283;
-        border: transparent;
+        border: 2px solid transparent;
 
     }
 
