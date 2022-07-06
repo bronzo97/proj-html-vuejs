@@ -10,12 +10,12 @@ p {
     &:hover {
         transform: scale(1.1);
         background-color: #056c6c;
-        border: none;
+        border: transparent;
         color: #fff;
     }
 
     &:focus {
-        border: none;
+        border: transparent;
     }
 
 }
@@ -29,12 +29,12 @@ p {
     &:hover {
         transform: scale(1.1);
         background-color: #058283;
-        border: none;
+        border: transparent;
 
     }
 
     &:focus {
-        border: none;
+        border: transparent;
     }
 
 }
@@ -52,7 +52,7 @@ p {
     }
 
     &:focus {
-        border: none;
+        border: transparent;
     }
     
 
