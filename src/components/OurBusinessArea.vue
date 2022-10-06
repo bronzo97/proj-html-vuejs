@@ -86,6 +86,7 @@
         background-color: #111116;
         color: #fff;
         padding: 150px;
+        
         .my-card-header {
             padding: 1rem 1rem 0 1rem;
             display: flex;

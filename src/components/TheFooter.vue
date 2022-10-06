@@ -6,7 +6,7 @@
                 <div class="row row-cols-4 row-cols-lg-5 justify-content-center">
                     <div class="col">                    
                         <ul class="list-unstyled">
-                            <li><img src="../../public/images/logo_48.png" alt=""></li>
+                            <li><img src="https://nexgen.codings.dev/wp-content/uploads/2021/03/logo.svg" alt="" class="logo"></li>
                             <li><p>A funtional HTML Template for corporate & business.</p></li>
                             <li><i class="fa-solid fa-phone"></i> {{getState.contacts.phoneNumber}}</li>
                             <li><i class="fa-solid fa-envelope"></i> {{getState.contacts.email}}</li>
@@ -87,6 +87,10 @@
         color: #fff;
 
 
+        .logo {
+            width: 70%;
+            margin-bottom: 1.5rem;
+        }
         i {
             margin: 0.5rem;
         }

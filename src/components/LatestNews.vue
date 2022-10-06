@@ -40,7 +40,6 @@
         background-color: #EEF4ED;
 
         p {
-            margin: 0;
             align-items: center;
         }
 

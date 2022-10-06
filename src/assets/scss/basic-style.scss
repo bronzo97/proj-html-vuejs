@@ -2,16 +2,23 @@ p {
     color: #bcbdbd;
 }
 
+h2 {
+    font-size: 3rem;
+    margin: 2rem 0;
+    font-weight: 700;
+}
+
 .my-btn-1 {
     background-color: #058283;
     color: #fff;
     text-transform: uppercase;
-    border: transparent;
+    border: 2px solid transparent;
+    padding: 0.5rem 1.5rem;
 
     &:hover {
         transform: scale(1.1);
         background-color: #056c6c;
-        border: transparent;
+        border: 2px solid transparent;
         color: #fff;
     }
 
@@ -26,6 +33,8 @@ p {
     border: 2px solid #058283;
     color: #fff;
     text-transform: uppercase;
+    padding: 0.5rem 1.5rem;
+
 
     &:hover {
         transform: scale(1.1);
@@ -45,6 +54,8 @@ p {
     border: 2px solid #058283;
     color: #058283;
     text-transform: uppercase;
+    padding: 0.5rem 1.5rem;
+
 
     &:hover {
         transform: scale(1.1);
@@ -62,19 +73,20 @@ p {
 .introduction-text {
     color: #42ACAC;
     text-transform: uppercase;
-    font-size: 0.8rem;
+    font-size: .9rem;
+    font-weight: 500;
 }
 
 .marker-effect-light {
     background-color: #DAECED;
-    color: #058283;
-    padding: 0 .5rem;
-    border-radius: 2px;
+    color: #058383;
+    padding: 0 1rem;
+    border-radius: 5px;
 }
 
 .marker-effect-dark {
-    background-color: #0583837d;
+    background-color: #0583832f;
     color: #fff;
-    padding: 0 .5rem;
-    border-radius: 2px;
+    padding: 0 1rem;
+    border-radius: 5px;
 }

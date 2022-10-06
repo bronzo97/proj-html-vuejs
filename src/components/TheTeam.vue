@@ -2,11 +2,10 @@
     <div class="the-team-section">
         <div class="container">
             <p class="introduction-text">we like what we do</p>
-            <div class="row">
-                
-                    <div class="col col-8">
-                        <h2><span class="marker-effect-light">Team</span> of experts</h2>
-                        <p>Ethics and integrity are bases on which our professionals build their careers. They are fundamentals that become daily attitudes.</p>
+            <div class="row justify-content-between">
+                <div class="col col-7">
+                    <h2><span class="marker-effect-light">Team</span> of experts</h2>
+                    <p>Ethics and integrity are bases on which our professionals build their careers. They are fundamentals that become daily attitudes.</p>
                     <div class="row">
                         <div class="col col-6 p-3">
                             <div class="row">
@@ -75,12 +74,7 @@
                             </div>
                         </div>
                     </div>
-                    </div>
-                    
-                        
-                
-                    
-
+                </div>
                 <div class="col col-4">
                     <div class="ceo-cit">
                         <h5>Presindent Speach</h5>
@@ -111,6 +105,15 @@ export default {
         flex-direction: column;
         justify-content: center;
 
+        h2 {
+            font-size: 3rem;
+            margin: 1rem 0;
+        }
+
+        h5 {
+            font-size: 1.5rem;
+        }
+
             img {
                 height: 120px;
                 width: 100px;
@@ -121,11 +124,17 @@ export default {
                 display: flex;
 
                 i {
-                    padding: .5rem;
-                    background-color: #bcbdbd;
-                    color: #60a9ad;
+                    padding: .4rem;
+                    background-color: #DAECED;
+                    color: #058283;
                     border-radius: 50%;
-                    margin: 0.5rem;
+                    margin-right: 0.5rem;
+                    width: 40px;
+                    height: 40px;
+                    font-size: 1.2rem;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
 
                 }
             }

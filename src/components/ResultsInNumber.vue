@@ -1,10 +1,11 @@
 <template>
+    
     <div class="background-results">
         <div class="container">
             <div class="row text-center bottom-spacing">
                 <div class="col">
                     <p class="introduction-text">what are we doing</p>
-                    <h2><span class="marker-effect-dark">Results</span> in Numbers</h2>
+                    <h2><strong><span class="marker-effect-dark">Results</span> in Numbers</strong></h2>
                 </div>
             </div>
             <div class="row row-cols-4 text-center">
@@ -38,14 +39,15 @@
 
 <style lang="scss" scoped>
     .background-results {
-        background-image: url('../../public/images/traffic-img.jpg');
-        background-position: bottom;
+        background-image: url('../../public/images/traffic-img.jpeg');
+        background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
         padding: 150px;
 
         h2 {
             color: #fff;
+            font-weight: 500;
         }
 
         p {
@@ -54,6 +56,8 @@
 
         h3 {
             color: #52babb;
+            font-weight: 600;
+            font-size: 2.5rem;
         }
 
         h4 {

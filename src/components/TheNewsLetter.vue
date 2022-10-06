@@ -8,8 +8,8 @@
                     <p>Follow closely and receive content about our company and the news of the current marker.</p>
                 </div>
                 <div class="col col-4">
-                    <input type="text" class="form-control m-2" placeholder="Name">
-                    <input type="email" class="form-control m-2" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
+                    <input type="text" class="form-control" placeholder="Name">
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email">
                     <div class="btn my-btn-1 m-2">SUBSCRIBE</div>
                 </div>
             </div>
@@ -28,12 +28,13 @@
     .news-letter-section {
         background-color: #111116;
         color: #fff;
-        padding: 100px 0;
+        padding: 120px 0;
 
         input {
             background-color: #1D1D23;
             border: 0;
-            padding: 0.5rem;
+            margin: 1rem 0;
+            padding: .8rem 2rem;
         }
     }
 </style>
